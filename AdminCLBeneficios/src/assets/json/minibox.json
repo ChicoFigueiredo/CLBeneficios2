@@ -1,0 +1,7 @@
+[
+    { "Titulo": "Meu Mini-Box", "Valor": "12 un", "ClassCorFundo": "bg-red", "ClassIcon":"fa fa-phone", "Url":"/admin/teste", "UrlTitle":"Ver Mais"},
+    { "Titulo": "New Order", "Valor": "150", "ClassCorFundo": "bg-aqua", "ClassIcon":"ion ion-bag", "Url":"/admin/teste", "UrlTitle":"Ver Mais"},
+    { "Titulo": "Bounce Rate", "Valor": "53 %", "ClassCorFundo": "bg-green", "ClassIcon":"ion ion-stats-bar", "Url":"/admin/teste", "UrlTitle":"Ver Mais"},
+    { "Titulo": "CPU Traffic", "Valor": "90%", "ClassCorFundo": "bg-blue", "ClassIcon":"fa fa-google-plus", "Url":"/admin/teste", "UrlTitle":"Ver Mais"},
+    { "Titulo": "User Registrations", "Valor": "44", "ClassCorFundo": "bg-yellow", "ClassIcon":"ion ion-person-add", "Url":"/admin/teste", "UrlTitle":"Ver Mais"}
+]

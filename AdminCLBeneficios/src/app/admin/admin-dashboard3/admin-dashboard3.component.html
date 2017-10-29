@@ -1,0 +1,16 @@
+<div class="content-wrapper">
+  <app-admin-content-header Titulo="Dashboard do Chico" Subtitulo="Versão 2" [Breadcrumb]="[{title:'Home', url:'/admin', icon:'fa fa-dashboard' },{title:'Dashboard do Chico', url:'/admin/dashboard3', icon:'fa fa-phone'}]"></app-admin-content-header>
+  <section class="content">
+    <div class="row">
+      <html-loading *ngIf="MiniBoxes?.length == 0"></html-loading>
+      <app-admin-minibox *ngFor="let m of MiniBoxes" 
+          Titulo="{{m.Titulo}}" 
+          Valor="{{m.Valor}}" 
+          ClassCorFundo="{{m.ClassCorFundo}}" 
+          ClassIcon="{{m.ClassIcon}}" 
+          Url="{{m.Url}}" 
+          UrlTitle="{{m.UrlTitle}}">
+        </app-admin-minibox>
+    </div>
+  </section>
+</div>
